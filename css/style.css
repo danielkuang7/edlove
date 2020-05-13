@@ -511,7 +511,7 @@ header h1 a img {
 .gal_magnify {
     position: absolute;
     display: block;
-    background: url(../images/magnify.png) center -100px no-repeat;
+    background: url(../images/magnify.png) center -50px no-repeat;
     width: 100%;
     height: 100%;
     top: 0;
@@ -520,6 +520,11 @@ header h1 a img {
      transition: 0.5s ease;
     -o-transition: 0.5s ease;
     -webkit-transition: 0.5s ease;
+}
+
+.img1{
+    height: 352px;
+    
 }
 
 .gal_item:hover .gal_magnify {
