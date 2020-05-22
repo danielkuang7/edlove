@@ -72,7 +72,7 @@ img {
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: #dd6d8c;
+    color: #aa8027;
     font-weight: bold;
     text-align: center;
     font-family: 'BenchNine', 'sans-serif';
@@ -488,7 +488,7 @@ header h1 a img {
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: rgba(190,114,134,0.63);
+    background-color: #aa9d27;
     color: #fff;
     font: 300 30px/35px 'BenchNine', 'sans-serif';
     padding: 3px 0 8px 30px;
@@ -522,10 +522,6 @@ header h1 a img {
     -webkit-transition: 0.5s ease;
 }
 
-.img1{
-    height: 352px;
-    
-}
 
 .gal_item:hover .gal_magnify {
     background-position: center center;
@@ -641,7 +637,7 @@ footer {
 }
 
 .copy {
-    float: left;
+    text-align: center;
     padding-top: 5px;
     font-weight: 300;
 }
