@@ -25,9 +25,9 @@
 		<script src="js/owl.carousel.js"></script>
 		<script src="js/sForm.js"></script>
 		<script src="js/camera.js"></script>
-		<!--[if (gt IE 9)|!(IE)]><!-->
+		
 		<script src="js/jquery.mobile.customized.min.js"></script>
-		<!--<![endif]-->
+		
 		<script>
 		$(document).ready(function(){
 			jQuery('#camera_wrap').camera({
@@ -42,11 +42,11 @@
 			});
 			var owl = $("#owl");
 			owl.owlCarousel({
-				items : 7, //10 items above 1000px browser width
-				itemsDesktop : [995,5], //5 items between 1000px and 901px
-				itemsDesktopSmall : [767, 3], // betweem 900px and 601px
-				itemsTablet: [700, 3], //2 items between 600 and 0
-				itemsMobile : [479, 2], // itemsMobile disabled - inherit from itemsTablet option
+				items : 7, 
+				itemsDesktop : [995,5], 
+				itemsDesktopSmall : [767, 3], 
+				itemsTablet: [700, 3], 
+				itemsMobile : [479, 2], 
 				navigation : true,
 			});
 			$().UItoTop({ easingType: 'easeOutQuart' });
